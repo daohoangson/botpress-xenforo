@@ -25,7 +25,7 @@
     "goog": true
   },
 
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "react"],
 
   "rules": {
     "no-extra-semi": 1, // disallow unnecessary semicolons

@@ -1,1 +1,8 @@
-{}
+{
+    "apiRoot": "<<UPDATE_ME>>",
+    "callbackUrl": "<<UPDATE_ME>>",
+    "clientId": "<<UPDATE_ME>>",
+    "clientSecret": "<<UPDATE_ME>>",
+    "username": "<<UPDATE_ME>>",
+    "password": "<<UPDATE_ME>>"
+}
