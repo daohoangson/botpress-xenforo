@@ -17,10 +17,4 @@ describe('placeholder test of view', () => {
     const element = view.render()
     expect(typeof element).to.equal('object')
   })
-
-  it('.render() returns <h4>This module is empty...</h4>', () => {
-    const element = view.render()
-    expect(element.type).to.equal('h4')
-    expect(element.props.children).to.equal('This module is empty...')
-  })
 })
