@@ -4,6 +4,7 @@ const path = require("path");
 const pkg = require("./package.json");
 
 const nodeConfig = {
+  mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   devtool: "source-map",
   entry: ["./src/index.js"],
   output: {
@@ -41,6 +42,7 @@ const nodeConfig = {
 };
 
 const webConfig = {
+  mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   devtool: "source-map",
   entry: ["./src/views/index.jsx"],
   output: {
